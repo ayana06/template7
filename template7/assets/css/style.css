@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-family: 'poppins';
+}
+
+.blockWomens{
+  padding-top: 142px;
+}
+
+.blockWomens-title h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #22262A;
+}
+
+.blockWomens-title p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 12px;
+}
+
+
+.blockWomens-cards__col{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 70px;
+  margin-top: 60px;
+  padding: 65px 46px;
+}
+
+.blockWomens-cards__row h2{
+  font-weight: 300;
+  font-size: 15px;
+  color: #22262A;
+  padding-top: 38px;
+}
+
+.blockWomens-cards__row h1{
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+
+.blockWomens-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blockWomens-price p{
+  text-decoration: line-through;
+}
+
+.blockWomens-price span{
+  color: #ff0000;
+  margin-right: 83px;
+}
+
+.blockMans{
+  padding-top: 142px;
+}
+
+.blockMans-title h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #22262A;
+}
+
+.blockMans-title p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 12px;
+}
+
+
+.blockMans-cards__col{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-gap: 70px;
+  margin-top: 60px;
+  padding: 65px 46px;
+}
+
+
+.blockMans-cards__row h2{
+  font-weight: 300;
+  font-size: 15px;
+  color: #22262A;
+  padding-top: 38px;
+}
+
+.blockMans-cards__row h1{
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+
+.blockMans-price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blockMans-price p{
+  text-decoration: line-through;
+}
+
+.blockMans-price span{
+  color: #ff0000;
+  margin-right: 83px;
+}
